@@ -69,7 +69,7 @@ function Experience() {
             <div className="timeline-date">
               <span className="date-year">2025</span>
 
-              
+    
               <span className="date-period">Mars – Avr</span>
             </div>
             <div className="timeline-content">

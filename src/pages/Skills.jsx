@@ -1,39 +1,47 @@
 const skillGroups = [
   {
+    title: "Programming",
+    skills: ["JavaScript", "Java", "Python", "C", "C++", "C#", "PHP"],
+  },
+  {
     title: "Frontend",
-    skills: [
-      ["React", 90],
-      ["JavaScript", 85],
-      ["Angular", 75],
-      ["HTML5", 95],
-      ["CSS3", 90],
-    ],
+    skills: ["React.js", "Angular", "HTML5", "CSS3"],
   },
   {
     title: "Backend",
-    skills: [
-      ["PHP", 85],
-      ["Java", 75],
-      ["C#", 70],
-      ["Python", 70],
-    ],
+    skills: ["PHP", "Java", "C#", "REST API"],
   },
   {
-    title: "Base de données",
-    skills: [
-      ["MySQL", 90],
-      ["MongoDB", 70],
-      ["SQL", 90],
-    ],
+    title: "Databases",
+    skills: ["MySQL", "SQL", "MongoDB"],
   },
   {
-    title: "Outils & Méthodes",
-    skills: [
-      ["Git / GitHub", 85],
-      ["UML", 85],
-      ["Scrum", 75],
-      ["XAMPP", 90],
-    ],
+    title: "Information Systems",
+    skills: ["Systèmes d'Information", "Analyse des besoins", "UML", "Modélisation"],
+  },
+  {
+    title: "Web",
+    skills: ["Web Development", "Responsive Design", "UI/UX", "E-Commerce", "E-Business"],
+  },
+  {
+    title: "Data",
+    skills: ["Data Analysis", "Data Mining", "Big Data"],
+  },
+  {
+    title: "AI",
+    skills: ["Artificial Intelligence", "Machine Learning"],
+  },
+  {
+    title: "Software Engineering",
+    skills: ["Software Design", "Software Testing", "Agile", "Scrum"],
+  },
+  {
+    title: "Tools",
+    skills: ["Git", "GitHub", "XAMPP"],
+  },
+  {
+    title: "IT",
+    skills: ["Computer Networks", "Operating Systems", "IT Security", "Cloud Computing"],
   },
 ];
 
@@ -43,23 +51,21 @@ function Skills() {
       <section className="section">
         <div className="section-header">
           <p className="section-tag">02 — COMPÉTENCES</p>
-          <h1>Technologies & savoir-faire</h1>
+          <h1>Technologies & Expertise</h1>
         </div>
+
         <div className="skills-grid">
           {skillGroups.map((group) => (
             <div className="skill-card" key={group.title}>
               <h2>{group.title}</h2>
-              {group.skills.map(([name, level]) => (
-                <div className="skill" key={name}>
-                  <div className="skill-info">
-                    <span>{name}</span>
-                    <span>{level}%</span>
-                  </div>
-                  <div className="skill-bar">
-                    <div className="skill-progress" style={{ width: `${level}%` }}></div>
-                  </div>
-                </div>
-              ))}
+
+              <ul className="skill-list">
+                {group.skills.map((skill) => (
+                  <li className="skill-item" key={skill}>
+                    {skill}
+                  </li>
+                ))}
+              </ul>
             </div>
           ))}
         </div>

@@ -20,6 +20,41 @@ function About() {
     "Adobe Photoshop",
   ];
 
+  const focusAreas = [
+    {
+      icon: "🧠",
+      title: "Génie Logiciel",
+      description:
+        "Analyse, architecture, développement et tests de solutions logicielles.",
+    },
+    {
+      icon: "🌐",
+      title: "Développement Web & Mobile",
+      description:
+        "Interfaces modernes et responsives, applications full-stack.",
+    },
+    {
+      icon: "🤖",
+      title: "IA & Automatisation",
+      description:
+        "Exploration d'applications intelligentes et de solutions basées sur l'IA.",
+    },
+    {
+      icon: "📚",
+      title: "Apprentissage Continu",
+      description:
+        "Toujours en train d'améliorer mes compétences techniques et d'ingénierie.",
+    },
+  ];
+
+  const quickFacts = [
+    { icon: "🎓", label: "Génie Informatique" },
+    { icon: "📍", label: "Sfax, Tunisie" },
+    { icon: "💻", label: "Développement Web & Logiciel" },
+    { icon: "🤖", label: "Passionné d'IA" },
+    { icon: "🌐", label: "Français / Anglais / Arabe" },
+  ];
+
   return (
     <main className="page">
       <section className="section">
@@ -101,9 +136,30 @@ function About() {
           </div>
         </div>
       </section>
+
+      {/* FOCUS */}
+      <section className="section">
+        <div className="section-header">
+          <p className="section-tag">02 — MY FOCUS</p>
+          <h1>Mes domaines de focus</h1>
+        </div>
+
+        <div className="about-cards">
+          {focusAreas.map((area) => (
+            <div className="info-card" key={area.title}>
+              <span>{area.icon}</span>
+              <h3>{area.title}</h3>
+              <p>{area.description}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+
       {/* CREATIVE */}
       <section className="section">
-        <div className="section-header"> 
+        <div className="section-header">
+          <p className="section-tag">03 — BEYOND CODE</p>
           <h1>Au-delà du développement</h1>
         </div>
 
@@ -147,6 +203,23 @@ function About() {
 
         </div>
 
+      </section>
+      
+      {/* QUICK FACTS */}
+      <section className="section">
+        <div className="section-header">
+          <p className="section-tag">04 — QUICK FACTS</p>
+          <h1>En quelques mots</h1>
+        </div>
+
+        <ul className="quick-facts">
+          {quickFacts.map((fact) => (
+            <li key={fact.label}>
+              <span className="fact-icon">{fact.icon}</span>
+              <span className="fact-label">{fact.label}</span>
+            </li>
+          ))}
+        </ul>
       </section>
 
     </main>

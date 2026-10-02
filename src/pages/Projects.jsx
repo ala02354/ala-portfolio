@@ -15,24 +15,10 @@ const projects = [
       "https://drive.google.com/file/d/1gvjf4Fbqtug1Id5Kw4RjdLnuNVOwY1Ej/view?usp=sharing",
   },
 
-  {
-    number: "02",
-    title: "Application Web pour Vêtements",
-
-    type: "Mini-projet académique",
-
-    description:
-      "Application web de gestion de vêtements permettant l'ajout, la modification, la suppression et la recherche de produits, avec gestion des stocks et des catégories.",
-
-    technologies:
-      "HTML5·CSS3· JavaScript · MySQL",
-
-    link:
-      "https://drive.google.com/file/d/1zCEFwCzT-69Jf03VAooOPYSYCPwMreh5/view?usp=sharing",
-  },
+  
 
  {
-  number: "03",
+  number: "02",
   title: "Sfax United — Affiches & Design",
 
   type: "Projet graphique / Club sportif",

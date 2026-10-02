@@ -47,13 +47,7 @@ function About() {
     },
   ];
 
-  const quickFacts = [
-    { icon: "🎓", label: "Génie Informatique" },
-    { icon: "📍", label: "Sfax, Tunisie" },
-    { icon: "💻", label: "Développement Web & Logiciel" },
-    { icon: "🤖", label: "Passionné d'IA" },
-    { icon: "🌐", label: "Français / Anglais / Arabe" },
-  ];
+  
 
   return (
     <main className="page">
@@ -205,22 +199,7 @@ function About() {
 
       </section>
       
-      {/* QUICK FACTS */}
-      <section className="section">
-        <div className="section-header">
-          <p className="section-tag">04 — QUICK FACTS</p>
-          <h1>En quelques mots</h1>
-        </div>
-
-        <ul className="quick-facts">
-          {quickFacts.map((fact) => (
-            <li key={fact.label}>
-              <span className="fact-icon">{fact.icon}</span>
-              <span className="fact-label">{fact.label}</span>
-            </li>
-          ))}
-        </ul>
-      </section>
+     
 
     </main>
   );

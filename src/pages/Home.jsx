@@ -1,4 +1,4 @@
-import alaPhoto from "../assets/ala.JPEG"; // ⚠️ adapte le chemin selon ton dossier
+import alaPhoto from "../assets/ala.jpeg"; // ⚠️ adapte le chemin selon ton dossier
 
 function Home() {
   return (

@@ -18,7 +18,7 @@ function Experience() {
           <div className="timeline-item">
             <div className="timeline-date">
               <span className="date-year">2026</span>
-              <span className="date-period">Oct – Aujourd'hui</span>
+              <span className="date-period">Oct – Présent</span>
             </div>
             <div className="timeline-content">
               <span className="timeline-badge">Temps plein</span>

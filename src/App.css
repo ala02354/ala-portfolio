@@ -1371,3 +1371,11 @@ img {
     height: 160px;
   }
 }
+.date-period {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.date-year {
+  display: block;
+}

@@ -14,11 +14,43 @@ function Experience() {
 
         <div className="timeline">
 
-          {/* ===== STAGE PFE ===== */}
+          {/* ===== CURA — E-COMMERCE ===== */}
           <div className="timeline-item">
             <div className="timeline-date">
               <span className="date-year">2026</span>
+              <span className="date-period">Oct – Aujourd'hui</span>
+            </div>
+            <div className="timeline-content">
+              <span className="timeline-badge">Temps plein</span>
+              <h2>Développeur Full-Stack & Designer Graphique</h2>
+              <h3>Cura | E-commerce Company · Sur site</h3>
+              <p>
+                Développement de solutions logicielles internes et création 
+                de supports visuels pour une entreprise e-commerce, tout en 
+                poursuivant un diplôme d'ingénieur en informatique à l'IIT Sfax 
+                en cours du soir.
+              </p>
+              <ul>
+                <li>Développement et maintenance de solutions logicielles internes</li>
+                <li>Conception d'affiches promotionnelles et de visuels marketing</li>
+                <li>Montage vidéo pour les réseaux sociaux et le marketing digital</li>
+                <li>Amélioration des outils internes et des workflows numériques</li>
+                <li>Contribution à des projets techniques et créatifs liés à l'e-commerce</li>
+              </ul>
+              <p className="timeline-skills">
+                <strong>Compétences :</strong> React · Angular · Next.js · 
+                Design graphique · Montage vidéo · Marketing digital · 
+                Développement web · E-commerce
+              </p>
+            </div>
+          </div>
+
+          {/* ===== STAGE PFE ===== */}
+          <div className="timeline-item">
+            <div className="timeline-date">
+              
               <span className="date-period">Fév – Mai</span>
+                <span className="date-year">2026</span>
             </div>
             <div className="timeline-content">
               <span className="timeline-badge">Stage de fin d'études</span>
@@ -36,16 +68,17 @@ function Experience() {
                 <li>Création de tableaux de bord et indicateurs clés</li>
                 <li>Tests, validation et déploiement de la solution</li>
               </ul>
+              <p className="timeline-skills">
+                <strong>Compétences :</strong> React · PHP · MySQL · UML · 
+                Analyse des besoins · Tableaux de bord · Tests & déploiement
+              </p>
             </div>
           </div>
-
-         
 
           {/* ===== PROJET SFAX UNITED ===== */}
           <div className="timeline-item">
             <div className="timeline-date">
-              <span className="date-year">2025-Présent</span>
-            
+              <span className="date-year">2025-2026</span>
             </div>
             <div className="timeline-content">
               <span className="timeline-badge creative">Design graphique</span>
@@ -61,6 +94,11 @@ function Experience() {
                 <li>Respect de la charte graphique du club</li>
                 <li>Adaptation des designs pour différents supports</li>
               </ul>
+              <p className="timeline-skills">
+                <strong>Compétences :</strong> Adobe Photoshop · Design graphique · 
+                Création de visuels · Marketing · Respect de charte graphique · 
+                Adaptation multi-supports
+              </p>
             </div>
           </div>
 
@@ -68,8 +106,6 @@ function Experience() {
           <div className="timeline-item">
             <div className="timeline-date">
               <span className="date-year">2025</span>
-
-    
               <span className="date-period">Mars – Avr</span>
             </div>
             <div className="timeline-content">
@@ -86,6 +122,11 @@ function Experience() {
                 <li>Développement des compétences en communication</li>
                 <li>Travail d'équipe et sens des responsabilités</li>
               </ul>
+              <p className="timeline-skills">
+                <strong>Compétences :</strong> Organisation logistique · 
+                Communication · Travail d'équipe · Sens des responsabilités · 
+                Collaboration partenaires
+              </p>
             </div>
           </div>
 
